@@ -1,4 +1,4 @@
-window.lyrics = [
+window.musicLyrics = [
   'This is ground control to Major Tom You'/'ve really made the grade',
   'Man is an obstacle, sad as the clown, Oh by jingo So hold on to nothing, and he wont let you down, Oh jingo',
   'It'/'s been a hard days night, and I'/'ve been working like a dog',
