@@ -17,7 +17,7 @@ var musicLyrics;
 var letters
 
 function start(){
-  new Audio("./audio/Elevator music.wav").play();
+  new Audio('./audio/Elevator Music.wav').play();
   $play    = $('#play');
   $display = $('#display');
   $play.on('click', play);
