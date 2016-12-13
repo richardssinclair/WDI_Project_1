@@ -17,6 +17,7 @@ var musicLyrics;
 var letters
 
 function start(){
+  new Audio("./audio/Elevator music.wav").play();
   $play    = $('#play');
   $display = $('#display');
   $play.on('click', play);
@@ -68,8 +69,8 @@ function start(){
 
 //add super mario wav to this
       if(correct === 0) {
-        new Audio('./../audio/Super Mario Bros Win Stage Sound Effect.wav').play();
-        setTimeout(location.reload.bind(location), 7000);
+        new Audio('./audio/Super Mario Bros Win Stage Sound Effect.wav').play();
+        setTimeout(location.reload.bind(location), 8000);
         $h1.html('Holla!').fadeOut(4000, function(){
           $(this).html('BuzzCock').show();
           $play.show();
@@ -80,11 +81,10 @@ function start(){
       }
     } else {
       totalGuesses++;
-      new Audio('./../audio/Nope.wav').play();
+      new Audio('./audio/Nope.wav').play();
       $h1.html('Oh man..... you are so off').fadeOut(3000, function() {
         $(this).html(oldTitle).show();
         // add nope.wav to this function
-
       });
     }
   }

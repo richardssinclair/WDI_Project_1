@@ -10,25 +10,21 @@ body {
   background-position: center;
   margin-bottom: 46px;
 
-
 }
 h1{
   font-family: 'Bungee Shade', cursive;
   text-align: center;
   font-size: 3em;
-
 }
 
 p{
 font-family: 'Vast Shadow', cursive;
   font-size: 16px;
   margin: 1px;
-
 }
 
 #container {
   background-color;
-
 }
 
 .lyrics-board {
@@ -59,9 +55,6 @@ form input{
   opacity: 0.9;
   margin: 1px;
   text-align: center;
-
-
-
 }
 #play, #reset{
   font-family: 'Vast Shadow', cursive;
@@ -77,9 +70,6 @@ form input{
 #audio{
   display: block;
   position: absolute;
-  bottom: -1px;
-  left: 280px;
-
-
-
+  bottom: -30px;
+  left: 240px;
 }
