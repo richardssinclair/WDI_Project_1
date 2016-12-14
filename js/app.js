@@ -13,7 +13,7 @@ var randomLyricsArray;
 var lyricWithoutWord;
 // var count;
 var musicLyrics;
-// var NumberOfChances;
+var NumberOfChances;
 var letters
 
 function start(){
