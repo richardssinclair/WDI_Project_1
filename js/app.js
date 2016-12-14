@@ -13,7 +13,7 @@ var randomLyricsArray;
 var lyricWithoutWord;
 // var count;
 var musicLyrics;
-var NumberOfChances;
+// var NumberOfChances;
 var letters
 
 function start(){
@@ -67,7 +67,7 @@ function start(){
       }).length;
 
 
-//add super mario wav to this
+      //add super mario wav to this
       if(correct === 0) {
         new Audio('./audio/Super Mario Bros Win Stage Sound Effect.wav').play();
         setTimeout(location.reload.bind(location), 8000);
